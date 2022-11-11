@@ -1,55 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>BMX SHOP</title>
-        <link rel="stylesheet" href="principal.css">
-    </head>
-    <!-- Google tag (gtag.js) -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMX SHOP</title>
+    <link rel="stylesheet" href="{{asset('\principal.css')}}">
+</head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJQPLCVMF5"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-GJQPLCVMF5');
+    gtag('config', 'G-GJQPLCVMF5');
 </script>
-    <style>
-        body{
-        background:url(Fondo.png);
-        background-size: 100% ;
-        display: grid;
-        }
-    </style> 
-    <body>
-        <header>
-            <img id="Logo" src="Logo.png">
-            <h1 id="Bmx">BMX</h1>
-            <h1 id="Shop">SHOP</h1>
-        </header>
-        <nav class="Menu">
-            <ul>
-                <a><li id="Prov">Proveedor</li></a>
-                <a ><li id="Clie">Cliente</li></a>
-                <a ><li id="Comp">Compra</li></a>
-                <a ><li id="Art">Articulos</li></a>
-            </ul> 
-        </nav>
-        <section>
-                <img id="Bike" src="Bike2.png" width=600px/>
-                <p><b>Encuentranos en nuestras<br>
-                    Redes Sociales</b></p>
-                <a href="https://www.facebook.com/profile.php?id=100087227215708"><img id="Facebook" src="Facebook.webp"></a>
-                <a href="https://www.instagram.com/invites/contact/?i=euu7z6gswg4h&utm_content=pvigmoz"><img id="Instagram" src="Instagram.png"></a>
-        </section>
-        <footer> 
-            <img id="Footer"src="Footer.png">
-            <img id="WhatsApp"src="WhatsApp.png">
+
+<body>
+    <header>
+        <div class="D3"><img id="Logo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLf9yKxMqSxf3BqLR7mbwCNCzp8RuQSVJOW1WSAyQt8Zhg6n5Sxdv5ylqRUcQmy16MGTM&usqp=CAU">
+        </div>
+        <div class="D4"><img id="FTK" src="FTK.jpeg"></div>
+    </header>
+    <!-- Google tag (gtag.js) -->
+
+    <nav class="Menu">
+        <ul>
+            <a href='\proveedor'>
+                <li id="Prov">Proveedor</li>
+            </a>
+            <a href="\cliente">
+                <li id="Clie">Cliente</li>
+            </a>
+            <a href="\compra">
+                <li id="Comp">Compra</li>
+            </a>
+            <a href="\articulo">
+                <li id="Art">Articulos</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="section">
+        <div class="D1"><img id="Bike" src="Bike2.png" width=70% /></div>
+        <div class="D2">
+            <p><b>Encuentranos en nuestras<br>Redes Sociales</b></p>
+            <a href="https://www.facebook.com/"><img id="Facebook"
+                    src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" width=50px></a>
+            <a href="https://www.instagram.com/"><img id="Instagram"
+                    src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" width=50px></a>
+            <img id="WhatsApp" src="https://cdn-icons-png.flaticon.com/512/3536/3536445.png" width=50px>
             <h4 id="Con">Contactanos en WhatsApp</h4>
             <h4 id="Num1">449 394 2067</h4>
             <h4 id="Num2">449 904 3263</h4>
-        </footer>
-    </body>
+        </div>
+    </div>
+    <footer>
+        <img id="Footer" src="Bmx5.png" width=100% height=200px>
+    </footer>
+</body>
+
 </html>
