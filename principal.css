@@ -20,6 +20,7 @@ header{
 nav{
     width: 70%;
     height: auto;
+    list-style: none;
 }
 .Menu li{
     list-style: none;
