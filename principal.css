@@ -14,13 +14,11 @@ body{
 header{
     width: 30%;
     float: right;
-    height: auto;
     background-color: black;
 }
 nav{
     width: 70%;
-    height: auto;
-    list-style: none;
+    
 }
 .Menu li{
     list-style: none;
@@ -33,10 +31,11 @@ nav{
     text-align: center;
     width: auto;
     border-radius: 8px;
+    border: 2px solid #000000; 
 }
 .Menu li:hover{
     background-color: rgb(0, 0, 0); 
-    color: rgb(255, 255, 255);  
+    color: rgb(255, 255, 255); 
 }
 .section{
     width:100%;
@@ -44,7 +43,9 @@ nav{
 .D1{
     width: 70%;
     float: left;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .D2{
     width: 30%;
@@ -52,8 +53,17 @@ nav{
     background-color: black;
     color: white;
     justify-content: center;
-    text-align: center;
-    height: auto;
+    text-align: center; 
+}
+.D5{
+    width: 28%;
+    margin: 7px;
+}
+.D6{
+    width: 28%;
+    margin: 5px;
+    border: 2px solid #000000;
+    border-radius: 5px;
 }
 #Facebook{
     padding:2%;  
@@ -70,10 +80,15 @@ h4,p{
     right: 40px;
     color: rgb(255, 255, 255);
 }
-
 footer{
     height: auto;
     bottom: 0;
     position:static;
     width: 100%;
+}
+#Des{
+    font-size: larger;
+    text-align: center;
+    right: 40px;
+    color: rgb(0, 0, 0);
 }
